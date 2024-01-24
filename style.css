@@ -8,7 +8,7 @@ body{
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    padding: 5px 30px;
+    
 
 }
 .text-primary{
@@ -55,13 +55,21 @@ nav a{
 .banner-description{
     width: 400px;
 }
-.profile-pic{
+.banner.profile-pic{
     width: 500px;
-    height: 600px;
 }
 /*------------------------------- About section styles_------------------------ */
 .about{
-    margin-top: 140px;
+    max-width: 750px;
+    height: 1140px;
     text-align: center;
+    margin: 70px auto;
+}
+.about-title{
+   font-size: 50;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
 }
 
