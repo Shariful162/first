@@ -1,0 +1,67 @@
+/* ---------------------------body styles -------------------------*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*------------------------------------------ nav related  styles --------------------------------------*/
+.header{
+    background-color: rgb(241, 236, 229);
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 5px 30px;
+
+}
+.text-primary{
+    color: chocolate;
+}
+.btn-primary{
+    background-color: chocolate;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    border: 0px;
+    padding: 10px 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner.banner-content{
+    width: 585px;
+    height: 676px;
+}
+.banner-description{
+    width: 400px;
+}
+.profile-pic{
+    width: 500px;
+    height: 600px;
+}
+/*------------------------------- About section styles_------------------------ */
+.about{
+    margin-top: 140px;
+    text-align: center;
+}
+
